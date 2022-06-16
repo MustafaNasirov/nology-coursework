@@ -37,6 +37,9 @@
   padding-left: 45px;
   padding-right: 45px;
 }
+* .section2 {
+  font-size: 1.5em;
+}
 * main {
   width: 85%;
   height: auto;
@@ -88,4 +91,17 @@
   margin-bottom: 5%;
   font-weight: bold;
   font-size: 1.2em;
+}
+* footer {
+  background-color: RGB(255, 252, 221);
+}
+* footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+* footer .footer-container .footer-link {
+  text-decoration: none;
+  color: RGB(60, 65, 110);
 }

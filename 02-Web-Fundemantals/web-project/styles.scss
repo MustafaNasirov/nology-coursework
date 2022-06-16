@@ -55,6 +55,11 @@ $light-blue:RGB(35, 185, 250);
     }       
     }
 
+    .section2{
+      font-size: 1.5em;
+     
+    }
+
 
 main{
     
@@ -116,6 +121,22 @@ main{
         font-weight: bold;
         font-size: 1.2em;
     }
+    }
+
+    footer{
+      background-color:RGB(255, 252, 221);
+      
+      .footer-container{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 100px;
+  
+          .footer-link{
+              text-decoration: none;
+              color:RGB(60, 65, 110);
+          }
+      }
     }
 
 }
