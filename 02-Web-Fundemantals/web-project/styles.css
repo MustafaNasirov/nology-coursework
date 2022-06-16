@@ -40,6 +40,9 @@
 * .section2 {
   font-size: 1.5em;
 }
+* .section2 h1 {
+  font-size: 2em;
+}
 * main {
   width: 85%;
   height: auto;
@@ -48,6 +51,7 @@
   align-items: center;
   text-align: center;
   color: aquamarine;
+  padding-top: 5px;
 }
 * main .grid_container {
   display: grid;
@@ -88,7 +92,8 @@
   padding: 15px;
   padding-left: 75px;
   padding-right: 75px;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
+  margin-top: 25px;
   font-weight: bold;
   font-size: 1.2em;
 }
