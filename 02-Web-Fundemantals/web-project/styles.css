@@ -28,21 +28,27 @@
   font-weight: bold;
   font-size: 2em;
 }
-* .section2 .grid_container {
+* main .grid_container {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 3%;
-  text-align: left;
 }
-* .section2 .grid-item {
+* main .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 2em;
   text-align: center;
 }
-* .section2 .text {
+* main .text {
+  display: inline;
+}
+* main .bold {
+  font-weight: bold;
+  display: inline;
+}
+* main .thin-italic {
+  font-style: italic;
   display: inline;
 }

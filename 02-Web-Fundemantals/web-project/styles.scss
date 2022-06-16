@@ -43,15 +43,15 @@ $light-blue:RGB(35, 185, 250);
     }
 
 
-    .section2{
+main{
+  
+
       .grid_container{
         display: grid;
         grid-template-columns: auto auto;
         align-items: center;
         justify-content: center;
         margin: auto;
-        padding: 3%;
-        text-align: left;
     
       }
       .grid-item {
@@ -60,7 +60,17 @@ $light-blue:RGB(35, 185, 250);
         font-size: 2em;
         text-align: center;
       }  
+
       .text{
+        display:inline;
+      }
+      .bold{
+        font-weight: bold;
+        display:inline;
+      }
+
+      .thin-italic{
+        font-style: italic;
         display:inline;
       }
     }
