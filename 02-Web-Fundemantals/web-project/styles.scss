@@ -37,7 +37,7 @@ $light-blue:RGB(35, 185, 250);
             background-color:white;
             border: none;
             font-weight: bold;
-            font-size: 1em;    
+            font-size: 2em;    
         }
     }       
     }
@@ -57,8 +57,11 @@ $light-blue:RGB(35, 185, 250);
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
         padding: 20px;
-        font-size: 1.3em;
+        font-size: 2em;
         text-align: center;
+      }  
+      .text{
+        display:inline;
       }
     }
 
