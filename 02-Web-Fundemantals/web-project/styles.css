@@ -1,14 +1,10 @@
-* {
-  margin-top: 3%;
-}
-
 .dark-blue {
-  color: RGB(57, 65, 102);
+  color: RGB(60, 65, 110);
   font-family: "Lato", sans-serif;
 }
 
 .light-blue {
-  color: RGB(27, 184, 242);
+  color: RGB(35, 185, 250);
   font-family: "Lato", sans-serif;
 }
 
@@ -24,11 +20,26 @@
   margin-left: auto;
   margin-right: 6%;
   background-color: white;
-  border: 2px solid RGB(57, 65, 102);
+  border: 2px solid RGB(60, 65, 110);
 }
 * .section1 .login .login-button {
   background-color: white;
   border: none;
   font-weight: bold;
   font-size: 1em;
+}
+* .section2 .grid_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3%;
+  text-align: left;
+}
+* .section2 .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 1.3em;
+  text-align: center;
 }

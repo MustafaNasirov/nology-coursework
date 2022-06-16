@@ -1,9 +1,9 @@
 
 $app-font: "Lato", sans-serif;
-$dark-blue: RGB(57, 65, 102);
-$light-blue:RGB(27, 184, 242);
+$dark-blue: RGB(60, 65, 110);
+$light-blue:RGB(35, 185, 250);
 
-*{margin-top:3%;}
+
 
 .dark-blue{
     color:$dark-blue;
@@ -40,6 +40,26 @@ $light-blue:RGB(27, 184, 242);
             font-size: 1em;    
         }
     }       
+    }
+
+
+    .section2{
+      .grid_container{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 3%;
+        text-align: left;
+    
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 1.3em;
+        text-align: center;
+      }
     }
 
 }
