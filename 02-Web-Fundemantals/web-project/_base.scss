@@ -1,0 +1,16 @@
+
+
+$app-font: "Lato", sans-serif;
+$dark-blue: RGB(60, 65, 110);
+$light-blue:RGB(35, 185, 250);
+
+.dark-blue{
+    color:$dark-blue;
+    font-family: $app-font;
+}
+
+.light-blue{
+    color:$light-blue;
+    font-family: $app-font;
+}
+
