@@ -53,6 +53,8 @@ main{
     text-align: center;
     color:aquamarine;
 
+    
+
       .grid_container{
         display: grid;
         grid-template-columns: auto auto;
@@ -89,6 +91,18 @@ main{
         font-style: italic;
         display:inline;
       }
+
+      .button{
+        background-color:RGB(60, 65, 110);
+        color: white;
+        border-radius: 5px;
+        padding: 15px;
+        padding-left: 75px;
+        padding-right: 75px;
+        margin-bottom: 5%;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
     }
 
 }
