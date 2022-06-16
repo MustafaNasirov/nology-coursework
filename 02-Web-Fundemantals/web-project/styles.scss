@@ -1,0 +1,45 @@
+
+$app-font: "Lato", sans-serif;
+$dark-blue: RGB(57, 65, 102);
+$light-blue:RGB(27, 184, 242);
+
+*{margin-top:3%;}
+
+.dark-blue{
+    color:$dark-blue;
+    font-family: $app-font;
+}
+
+.light-blue{
+    color:$light-blue;
+    font-family: $app-font;
+}
+
+
+
+* {
+  .section1{
+    display: flex;
+    justify-content:flex-start;
+    
+    color: black;
+    font-weight: bold;
+
+    .login{
+        display:flex;
+        align-self:flex-end;
+        margin-left: auto;
+        margin-right: 6%;
+        background-color:white;
+        border: 2px solid $dark-blue;
+
+        .login-button{
+            background-color:white;
+            border: none;
+            font-weight: bold;
+            font-size: 1em;    
+        }
+    }       
+    }
+
+}

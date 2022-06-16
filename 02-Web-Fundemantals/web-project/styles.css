@@ -1,0 +1,34 @@
+* {
+  margin-top: 3%;
+}
+
+.dark-blue {
+  color: RGB(57, 65, 102);
+  font-family: "Lato", sans-serif;
+}
+
+.light-blue {
+  color: RGB(27, 184, 242);
+  font-family: "Lato", sans-serif;
+}
+
+* .section1 {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  font-weight: bold;
+}
+* .section1 .login {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 6%;
+  background-color: white;
+  border: 2px solid RGB(57, 65, 102);
+}
+* .section1 .login .login-button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+}
