@@ -9,3 +9,14 @@ body {
     max-width: 1400px;
     margin: auto;
 }
+
+header {
+    text-align: center;
+    height: 80px;
+    padding: 40px;
+    color: rgb(94, 92, 89);
+}
+
+header h1 {
+    font-size: 40px;
+}
