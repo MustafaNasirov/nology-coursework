@@ -40,18 +40,15 @@ nav {
 div {
   text-align: center;
 }
-
 div h1 {
   color: #28527a;
   font-size: 50px;
 }
-
 div h2 {
   font-family: font-display;
   font-size: 25px;
   margin: 20px 0;
 }
-
 div a {
   margin: 0 auto;
 }
