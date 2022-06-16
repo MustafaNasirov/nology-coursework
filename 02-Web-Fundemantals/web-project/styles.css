@@ -28,18 +28,35 @@
   font-weight: bold;
   font-size: 2em;
 }
+* main {
+  width: 85%;
+  height: auto;
+  margin: 35px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aquamarine;
+}
 * main .grid_container {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
   margin: auto;
+  padding: 3%;
+  text-align: left;
 }
 * main .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
+}
+* main .grid-item-right {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 2em;
+  text-align: right;
 }
 * main .text {
   display: inline;
