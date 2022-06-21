@@ -36,6 +36,12 @@ nav {
   justify-content: flex-end;
 }
 
+.search-bar{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
 a {
   width: 33%;
   height: 100%;
@@ -60,6 +66,20 @@ main {
   
 }
 
+@media screen and (min-width: 360px){
+  main{
+    width: 15%;
+    height: 15%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  main{
+    width: 100%;
+  }
+}
+
+
 #left-panel {
   width: 67.5%;
   display: flex;
@@ -71,6 +91,12 @@ main {
   border: solid black 2px;
   height: 25%;
   padding: 15px;  
+  flex-wrap: wrap;
+  
+}
+
+.img_item{
+  height: 20px;
 }
 
 ul {
@@ -87,6 +113,7 @@ li {
   border: solid black 2px;
   flex-basis: auto;
   overflow-y: auto;
+  flex-wrap: wrap;
 }
 
 #right-panel > h3 {
